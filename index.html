@@ -4,39 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Despliegue GitHub Pages | Sergio Ramirez</title>
-    <meta name="description" content="Una página web moderna y profesional lista para ser desplegada en GitHub Pages.">
+    <title>Sugar Rush | El Paraíso de los Dulces</title>
+    <meta name="description"
+        content="Descubre el mundo más dulce con nuestra selección premium de caramelos, gomitas y chocolates artesanales.">
 
-    <!-- Google Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Pacifico&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Background elements -->
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
+    <header>
+        <div class="logo">Sugar Rush</div>
+        <nav>
+            <a href="#" class="btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Tienda</a>
+        </nav>
+    </header>
 
-    <main class="card">
-        <div class="status-badge">
-            <span class="dot"></span>
-            Listo para el despliegue
-        </div>
+    <main>
+        <div class="decoration dec-1">🍭</div>
+        <div class="decoration dec-2">🍬</div>
 
-        <h1>¡Prueba de Despliegue!</h1>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Bienvenido al <span>Mundo Dulce</span></h1>
+                <p class="description">
+                    Explora una explosión de sabores con nuestra colección exclusiva de dulces importados y artesanales.
+                    Hechos para alegrar tu día.
+                </p>
+                <div class="hero-btns">
+                    <a href="#productos" class="btn-primary">Ver Catálogo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="candy_hero_image.png" alt="Deliciosos Dulces Variados" id="hero-img">
+            </div>
+        </section>
 
-        <p>
-            Esta página está lista en tu carpeta local para ser subida a GitHub Pages.
-            Tiene un diseño moderno con efectos visuales y respuesta interactiva.
-
-        </p>
-
-        <a href="https://github.com/new" target="_blank" class="btn" id="cta-button">
-            Configurar en GitHub
-        </a>
+        <section class="features" id="productos">
+            <div class="feature-card">
+                <div class="feature-icon">🍬</div>
+                <h3>Gomitas Neon</h3>
+                <p>Las gomitas más vibrantes y ácidas que jamás hayas probado.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🍫</div>
+                <h3>Choco Premium</h3>
+                <p>Cacao seleccionado de origen para los paladares más exigentes.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🍭</div>
+                <h3>Paletas Magicas</h3>
+                <p>Diseños únicos que te transportarán a tu infancia en cada mordisco.</p>
+            </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
